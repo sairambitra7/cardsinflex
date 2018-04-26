@@ -1,0 +1,21 @@
+<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+  <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33.33" fxFlex.lg="33.33" fxFlex.xl="33.33" *ngFor="let item of data.cards">
+      <div style="width: 320px;margin: auto;">
+          <img class="card-img-top" src={{item.imagepath}}>
+          <div class="card-block">
+              <figure class="profile">
+                  <img src={{item.avatarpath}} class="profile-avatar" alt="">
+              </figure>
+              <h4 class="card-title mt-3">{{item.title}}</h4>
+
+              <div class="card-text">
+                  {{item.para}}
+              </div>
+          </div>
+          <div class="card-footer">
+              <small>Last updated 3 mins ago</small>
+              <button class="btn btn-secondary float-right btn-sm">show</button>
+          </div>
+      </div>
+  </div>
+</div>

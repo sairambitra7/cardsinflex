@@ -1,19 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-cardco',
+  templateUrl: './cardco.component.html',
+  styleUrls: ['./cardco.component.css']
 })
-export class AppComponent implements OnInit {
-  title = 'app';
-  cardData:any[] = [];
-  data:any = {}
-  constructor() {
- 
+export class CardcoComponent implements OnInit {
+
+  data:any;
+
+  constructor() { 
+    this.getData();
   }
-  getData() {
-    this.data = {
+
+  ngOnInit() {
+  }
+
+  getData(){
+    this.data={
       cards: [
         {
           title: "Tawshif Ahsan Khan",
@@ -67,10 +71,5 @@ export class AppComponent implements OnInit {
       ]
     }
   }
-  ngOnInit(){
-    this.getData()
-    this.cardData=this.data.cards
-    console.log(this.cardData)
- 
-  }
+
 }
