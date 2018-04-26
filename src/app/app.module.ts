@@ -10,6 +10,7 @@ import { CardComponent } from './card/card.component';
 import { CardcoComponent } from './cardco/cardco.component';
 import { CardhoverComponent } from './cardhover/cardhover.component';
 import { FridayComponent } from './friday/friday.component';
+import { EvencardsComponent } from './evencards/evencards.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FridayComponent } from './friday/friday.component';
     CardcoComponent,
     CardhoverComponent,
     FridayComponent,
+    EvencardsComponent,
     
   ],
   imports: [

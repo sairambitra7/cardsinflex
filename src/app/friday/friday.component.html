@@ -1,15 +1,76 @@
-<!-- <p>
-  friday works!
-</p> -->
-
 <div fxLayout="row wrap" fxLayoutAlign="space-around center">
-  <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="33.33" fxFlex.lg="33.33" fxFlex.xl="33.33">
+  <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" *ngFor="let item of data.overview">
       <div style="width: 320px;margin: auto;">
-        
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          
-        
+    <div fxLayout="row" fxLayoutAlign="space-around center">   
+      <div fxFlex="15">
+        <img src={{item.imagesrc}} alt={{item.imagealt}}>
+        </div>
+        <div fxFlex="85">
+            <h5 class="card-title">{{item.header}}</h5>
+          </div>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="space-around center">
+          <div style="width: 320px;margin: auto;">
+            <p class="card-text">{{item.list}}</p>
+          </div>
+        </div>
       </div>
-  </div>
-</div>
+      </div>
+
+      <!-- <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50">
+          <div style="width: 320px;margin: auto;">
+        <div fxLayout="row" fxLayoutAlign="space-around center">   
+          <div fxFlex="15">
+            <img src="../assets/facebook.png" alt="">
+            </div>
+            <div fxFlex="85">
+                <h5 class="card-title">Special title treatment</h5>
+              </div>
+            </div>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="space-around center">
+              <div style="width: 320px;margin: auto;">
+                <p class="card-text">With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50">
+              <div style="width: 320px;margin: auto;">
+            <div fxLayout="row" fxLayoutAlign="space-around center">   
+              <div fxFlex="15">
+                <img src="../assets/facebook.png" alt="">
+                </div>
+                <div fxFlex="85">
+                    <h5 class="card-title">Special title treatment</h5>
+                  </div>
+                </div>
+                </div>
+                <div fxLayout="row" fxLayoutAlign="space-around center">
+                  <div style="width: 320px;margin: auto;">
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50">
+                  <div style="width: 320px;margin: auto;">
+                <div fxLayout="row" fxLayoutAlign="space-around center">   
+                  <div fxFlex="15">
+                    <img src="../assets/facebook.png" alt="">
+                    </div>
+                    <div fxFlex="85">
+                        <h5 class="card-title">Special title treatment</h5>
+                      </div>
+                    </div>
+                    </div>
+                    <div fxLayout="row" fxLayoutAlign="space-around center">
+                      <div style="width: 320px;margin: auto;">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div> -->
+
+          
+    </div>
+            

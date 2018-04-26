@@ -7,9 +7,48 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FridayComponent implements OnInit {
 
-  constructor() { }
+  data:any;
+
+  constructor() {
+    this.getData();
+   }
 
   ngOnInit() {
   }
 
+  getData(){
+    this.data={
+      overview: [
+        {
+          header:"Special title treatment",
+          imagesrc:"../assets/facebook.png",
+          imagealt:"facebook",
+          list:"With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.",
+
+        },
+        {
+          header:"Special title treatment",
+          imagesrc:"../assets/facebook.png",
+          imagealt:"facebook",
+          list:"With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.",
+
+        },
+        {
+          header:"Special title treatment",
+          imagesrc:"../assets/facebook.png",
+          imagealt:"facebook",
+          list:"With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.",
+
+        },
+        {
+          header:"Special title treatment",
+          imagesrc:"../assets/facebook.png",
+          imagealt:"facebook",
+          list:"With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.",
+
+        }
+      ]
+
+}
+  }
 }
