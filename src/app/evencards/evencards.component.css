@@ -1,13 +1,12 @@
 .card {
     font-family: OpenSans;
-    font-size: 1em;
     overflow: hidden;
     padding: 0;
     border: none;
     margin-bottom: 14px;
     text-align: center;
     border-radius: .28571429rem;
-    /* box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5; */
+
     
 }
 
@@ -33,6 +32,6 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
-    line-height: 35px;
+    line-height: 23px;
     font-size: 20px;
 }
