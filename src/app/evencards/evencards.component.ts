@@ -18,22 +18,16 @@ export class EvencardsComponent implements OnInit {
       overview: [
         {
           header:"Strategy",
-          imagesrc:"../assets/facebook.png",
-          imagealt:"facebook",
-          list:"With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content,With supporting text below as a natural lead-in to additional content.",
-
-        },
-        {
-          
+          iconsrc:"../assets/facebook.png",
+          iconalt:"facebook",
           imagesrc:"../assets/corporate.jpg",
           imagealt:"corporate",
-          
-
+          list:["Marketing Anaysis","Audience","Profiling","Brand Identity","Communication"],
         },
         
         
       ]
-    
+
 
     }
   }

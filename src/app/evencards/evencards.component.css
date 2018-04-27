@@ -6,9 +6,12 @@
     border: none;
     margin-bottom: 14px;
     text-align: center;
-    /* margin-right: 14px; */
     border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    /* box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5; */
+}
+
+.section-padding{
+    padding: 30px;
 }
 
 .head{
@@ -16,17 +19,19 @@
     font-weight: 300;
     line-height: 0px;
     margin-top: 15px;
+    margin-bottom: 35px;
 }
-
-/* .card-title {
-    
-    font-size: 1.28571429em;
-    font-weight: 300;
-    line-height: 0px;
-} */
 .card-text {
     text-align: center;
     clear: both;
     margin-top: 0.0em;
     color: rgba(0, 0, 0, .68);
+}
+.lists{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
 }
