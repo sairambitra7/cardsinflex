@@ -1,0 +1,30 @@
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    margin-bottom: 14px;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19); */
+    background-color: #f7f8f3;
+}
+.card-img-top {
+    padding: 15px;
+}
+.lists{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.lists p{
+    text-align: justify;
+}
+.section-padding{
+    padding: 20px;
+}
+
+

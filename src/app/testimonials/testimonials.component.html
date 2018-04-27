@@ -1,0 +1,17 @@
+<div class="section-padding">
+<div fxLayout="row wrap" fxLayoutAlign="space-around center">
+    <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="25" fxFlex.lg="25" fxFlex.xl="25" *ngFor="let item of data.testimonials">
+        <div style="width: 320px;text-align: center;margin: auto">
+            <img class="card-img-top" src={{item.imagepath}}>
+                <div class="lists">
+                   <p> {{item.list}}</p>
+                </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+                
+  
+                
+            
+        
