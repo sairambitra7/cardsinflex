@@ -3,7 +3,7 @@
     <div class="card" fxFlex.xs="100" fxFlex.sm="50" fxFlex.md="50" fxFlex.lg="50" fxFlex.xl="50" *ngFor="let item of data.overview">
       <div style="width: 320px;margin: auto;">
         <img src={{item.iconsrc}} alt={{item.iconalt}}>
-        <h5 class="head">{{item.header}}</h5>
+        <h4 class="head">{{item.header}}</h4>
           <ul class="lists" *ngFor="let tags of item.list" >
             <li>{{tags}}</li>
           </ul>
